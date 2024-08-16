@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luminate - Make your phone more beautiful">
+    <title>Luminate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/luminate.png" alt="logo">
+        </div>
+        <nav class="nav-desktop">
+            <!-- navbar -->
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+        <div class="download-button nav-desktop">
+            <a href="#"><i class="fa-solid fa-download"></i> Download</a>
+        </div>
+        <!-- Ícono de menú hamburguesa -->
+        <div class="menu-hamburger nav-mobile">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Menú móvil desplegable -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#"><i class="fa-solid fa-download"></i> Download</a></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Make your phone more</h2>
+            <h1 class="beautiful-text">Beautiful.</h1>
+            <a href="#" class="learn-more">Learn more <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/banner.png" alt="captura introductoria">
+        </div>
+    </section>
+
+    <script>
+        const menuHamburger = document.querySelector('.menu-hamburger');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        menuHamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
