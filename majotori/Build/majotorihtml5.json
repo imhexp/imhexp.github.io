@@ -1,0 +1,13 @@
+{
+"companyName": "hexp",
+"productName": "Majotori",
+"dataUrl": "majotorihtml5.data.unityweb",
+"asmCodeUrl": "majotorihtml5.asm.code.unityweb",
+"asmMemoryUrl": "majotorihtml5.asm.memory.unityweb",
+"asmFrameworkUrl": "majotorihtml5.asm.framework.unityweb",
+"TOTAL_MEMORY": 1073741824,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
